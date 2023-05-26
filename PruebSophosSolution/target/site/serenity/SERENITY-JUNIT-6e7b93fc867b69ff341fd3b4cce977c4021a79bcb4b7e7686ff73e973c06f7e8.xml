@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Reply cycle two" skipped="0" tests="1" time="23.89" timestamp="2023-05-24 11:03:57"><testcase name="Respond cycle two"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Reply cycle two" skipped="0" tests="1" time="18.7" timestamp="2023-05-25 07:14:58"><testcase name="Respond cycle two"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.co.sophos.tasks.secondcycle.multiplesforsevennumber.MultiplesForSevenNumberTask.performAs(MultiplesForSevenNumberTask.java:72)&#13;
+com.co.sophos.stepdefinitions.secondcycle.SeconCycleStepDefinition.heIndicatesWhichNumberIsAMultipleOfSeven(SeconCycleStepDefinition.java:69)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

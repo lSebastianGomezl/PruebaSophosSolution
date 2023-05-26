@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Ten Cycle" skipped="0" tests="1" time="18.84" timestamp="2023-05-25 07:21:00"><testcase name="response cycle ten"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.co.sophos.tasks.secondcycle.multiplesforsevennumber.MultiplesForSevenNumberTask.performAs(MultiplesForSevenNumberTask.java:72)&#13;
+com.co.sophos.stepdefinitions.tencycle.TenCycleStepDefinition.sebastianIsOnTheTestPage(TenCycleStepDefinition.java:74)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

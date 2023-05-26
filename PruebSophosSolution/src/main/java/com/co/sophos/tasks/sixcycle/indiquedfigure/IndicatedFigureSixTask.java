@@ -11,7 +11,7 @@ public class IndicatedFigureSixTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.wasAbleTo(
-                Enter.theValue("16").into(FourCycleInterface.INPUT_NUMBER_FOUR_CYCLE)
+                Enter.theValue("17").into(FourCycleInterface.INPUT_NUMBER_FOUR_CYCLE)
         );
     }
     public static IndicatedFigureSixTask on(){

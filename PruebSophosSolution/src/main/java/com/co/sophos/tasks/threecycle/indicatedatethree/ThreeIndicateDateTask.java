@@ -13,7 +13,7 @@ import static net.serenitybdd.screenplay.Tasks.instrumented;
 public class ThreeIndicateDateTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
-        String initialD = "24/05/2023";
+        String initialD = "25/05/2023";
 
         LocalDate initialDate = LocalDate.parse(initialD, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 

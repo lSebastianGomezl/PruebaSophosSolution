@@ -1,6 +1,7 @@
 package com.co.sophos.stepdefinitions.sixcycle;
 
 import com.co.sophos.questions.fivecycle.FiveCycleQuestion;
+import com.co.sophos.questions.sixcycle.SixCycleQuestion;
 import com.co.sophos.tasks.fivecycle.completoperationfive.CompletOperationFiveTask;
 import com.co.sophos.tasks.fivecycle.indiquedcouncil.IndiquedCouncilFiveTask;
 import com.co.sophos.tasks.fivecycle.multiplecyclefive.MultipleCycleFiveTask;
@@ -29,6 +30,7 @@ import com.co.sophos.tasks.threecycle.completsecondoperation.CompleteSecondOpera
 import com.co.sophos.tasks.threecycle.indicatedatethree.ThreeIndicateDateTask;
 import com.co.sophos.tasks.threecycle.multiplesthreecycle.MultiplesNumberThreeCycle;
 import com.co.sophos.tasks.writeletter.WriteLetterTask;
+import com.co.sophos.userinterface.sixcycle.SixCycleInterface;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -126,7 +128,7 @@ public class SixCycleStepDefinition {
 
     @Then("^he should see that he's in the six out of ten$")
     public void heShouldSeeThatHeSInTheSixOutOfTen() {
-       // System.out.println("El titulo que el actor el titulo Se encuentra en el ciclo 6 de 10 : \n " + FiveCycleQuestion.fiveCycleSuccessful().answeredBy(Sebastian));
+        System.out.println("El titulo que el actor el titulo Se encuentra en el ciclo 6 de 10 : \n " + SixCycleQuestion.sixCycleSuccessful().answeredBy(Sebastian));
 
     }
 
